@@ -17,7 +17,7 @@ LDFLAGS = -shared -Wl,-undefined -Wl,dynamic_lookup -Llib -ldobby
 
 FRAMEWORKS = -framework CoreFoundation -framework IOKit
 
-SOURCES = source/bo3macfix.c source/bo3macnative.m source/utilities.c source/steam.c source/exports.c
+SOURCES = source/bo3macfix.c source/bo3macnative.m source/utilities.c source/steam.c source/exports.c source/localhost.c
 
 all: $(TARGET)
 
